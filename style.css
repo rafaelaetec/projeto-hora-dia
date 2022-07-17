@@ -2,6 +2,8 @@ body{
     background-color: rgba(0, 183, 255, 0.685);
     font:normal 15pt arial;
     margin:auto;
+    min-width: 280px;
+    max-width: 1000px;
 }
 header{
     text-align: center;
