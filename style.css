@@ -18,8 +18,6 @@ main{
     min-width: 250px;
     max-width: 1000px;
     margin: auto;
-    margin-left: 10px;
-    margin-right: 20px;
     margin-bottom: 30px;
     padding: 20px;
 }
