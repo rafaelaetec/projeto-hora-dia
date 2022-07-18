@@ -1,9 +1,6 @@
 body{
     background-color: rgba(0, 183, 255, 0.685);
     font:normal 15pt arial;
-    margin:auto;
-    min-width: 280px;
-    max-width: 1000px;
 }
 header{
     text-align: center;
@@ -14,22 +11,28 @@ section{
     background-color: white;
     border-radius: 10px;
     padding:15px;
-    width:500px;
     margin:auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.59);
-
+}
+main{
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 img{
     border-radius: 50%;
-    width: 250px;
+    max-width: 250px;
     height:250px;
+    display: block;
+    margin: auto;
 }
 div{
     padding: 5px;
     text-align: center;
     margin:auto;
-    min-width: 280px;
-    max-width: 1000px;
+    display: block;
 }
 footer{
     color:white;
